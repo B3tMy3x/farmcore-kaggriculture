@@ -1,0 +1,7 @@
+Kaggriculture Rust engine
+
+This project includes a Rust port of the Kaggriculture simulator from
+Kaggle/kaggle-environments, commit 28b6d8af3ce73926b3d0fda1410c1ddd8384ab8c.
+The original Python sources and Apache-2.0 license are retained in reference/.
+Rust implementation, Python bindings, batch execution and tests are additions
+and modifications made in this project.

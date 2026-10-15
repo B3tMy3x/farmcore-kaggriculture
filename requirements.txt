@@ -1,0 +1,5 @@
+torch>=2.4
+numpy
+scipy
+requests
+# optional: pandas (extract_features CSV/parquet dump); pytest, jsonschema (Rust port tests); maturin (building the Rust port)

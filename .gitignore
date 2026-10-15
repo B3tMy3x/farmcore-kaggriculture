@@ -1,0 +1,15 @@
+secrets/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.npz
+*.tar.gz
+raw-content/
+experiments/net/runs/
+experiments/rl/runs/
+submission/
+opponents/
+engines/kaggriculture_rs/target/
+.DS_Store

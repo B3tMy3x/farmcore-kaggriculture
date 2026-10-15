@@ -1,0 +1,28 @@
+[package]
+name = "kaggriculture-rs"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[lib]
+name = "kaggriculture_rs"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["python"]
+python = ["dep:pyo3", "dep:pythonize"]
+extension-module = ["python", "pyo3/extension-module"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order", "float_roundtrip"] }
+indexmap = { version = "2", features = ["serde"] }
+num-bigint = "0.4"
+num-traits = "0.2"
+rayon = "1.12"
+pyo3 = { version = "0.27", optional = true, features = ["num-bigint"] }
+pythonize = { version = "0.27", optional = true }
+
+[[bin]]
+name = "bench-core"
+path = "src/bin/bench_core.rs"

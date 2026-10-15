@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/Kaggle/kaggle-environments",
+  "commit": "28b6d8af3ce73926b3d0fda1410c1ddd8384ab8c",
+  "files": {
+    "kaggriculture.py": "kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "kaggriculture.json": "kaggle_environments/envs/kaggriculture/kaggriculture.json",
+    "core.py": "kaggle_environments/core.py",
+    "utils.py": "kaggle_environments/utils.py",
+    "LICENSE": "LICENSE",
+    "schemas.json": "kaggle_environments/schemas.json"
+  },
+  "sha256": {
+    "kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+    "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c"
+  }
+}
