@@ -75,8 +75,8 @@ not the raw soup: the decoder flags live in the package weights).
 ## Hardware
 
 Pretrain and the 12-epoch fine-tune ran on one A100-80GB (`--gpu-corpus 1` keeps
-the corpus on the GPU); `deep_mm6` ran on a single RTX PRO 6000 in a free cloud
-notebook. Play is CPU-only (2 threads, a few tens of ms per turn on a laptop; the 1 s limit is never close).
+the corpus on the GPU); `deep_mm6` ran on a single GPU
+in free cloud compute. Play is CPU-only (2 threads, a few tens of ms per turn on a laptop; the 1 s limit is never close).
 
 ## Choosing epochs
 
