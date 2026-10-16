@@ -14,7 +14,9 @@ The final agent is pure behaviour cloning, with no self-play and no search at pl
 - **Pretrain on many top teams, fine-tune on one, average two fine-tunes** (weight soup).
 - **Models are selected by money on paired seeds**, not by validation metrics.
 
-Trained weights are not included. `pipeline/README.md` reproduces the final submission from replays.
+The trained agent (the final submission package, code + weights) is on
+[Kaggle Models](https://www.kaggle.com/models/betmyex/farmcore-kaggriculture-agent);
+`pipeline/README.md` reproduces it from replays.
 
 ## Layout
 
