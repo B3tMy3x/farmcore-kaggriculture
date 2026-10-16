@@ -2,7 +2,7 @@
 
 Code of team **Farmcore** for the Kaggle simulation competition
 [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture). Writeup:
-[discussion/745119](https://www.kaggle.com/competitions/kaggriculture/discussion/745119).
+[Farmcore: a one-pass transformer trained on what the engine executed](https://www.kaggle.com/competitions/kaggriculture/writeups/farmcore-a-one-pass-transformer-trained-on-what-t) (4th place).
 
 The final agent is pure behaviour cloning, with no self-play and no search at play time:
 
