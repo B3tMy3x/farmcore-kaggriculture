@@ -9,7 +9,7 @@ __pycache__/
 raw-content/
 experiments/net/runs/
 experiments/rl/runs/
-submission/
+/submission/
 opponents/
 engines/kaggriculture_rs/target/
 .DS_Store
